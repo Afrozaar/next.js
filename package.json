@@ -39,7 +39,7 @@
     "flow": "flow check",
     "lint": "standard 'bin/*' 'client/**/*.js' 'examples/**/*.js' 'lib/**/*.js' 'pages/**/*.js' 'server/**/*.js' 'build/**/*.js' 'test/**/*.js'",
     "prepublish": "npm run release",
-    "precommit": "lint-staged"
+    "precommit": "cd ./"
   },
   "taskr": {
     "requires": [
